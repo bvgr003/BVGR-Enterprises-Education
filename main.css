@@ -98,13 +98,12 @@ p {
     word-spacing: normal;
 }
 
-h2 {
+h1 {
     font-size: 35px;
     color: white;
-    text-align: center;
+    text-align: left;
     padding: 30px;
     letter-spacing: normal;
     word-spacing: normal;
 }
-
 
