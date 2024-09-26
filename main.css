@@ -88,3 +88,23 @@ img {
 .icons img:hover {
     transform: scale(1.1);
 }
+
+p {
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    padding: 30px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+h2 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+

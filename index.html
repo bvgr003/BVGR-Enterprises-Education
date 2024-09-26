@@ -1,18 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="curtain.css">
+    <script defer src="curtain.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <header></header>
-    <br><br><hr><br><br>
+    <header>
+        <h1 style="
+    position: relative;
+    top: 150px;
+    font-size: 100px;
+    color: #50C878;
+    text-shadow: 
+        -3px -3px 0 #000,  
+         3px -3px 0 #000,
+        -3px  3px 0 #000,
+         3px  3px 0 #000,
+        -3px  0px 0 #000,
+         3px  0px 0 #000,
+        0px -3px 0 #000,
+        0px  3px 0 #000;
+">
+            <br><br>
+        </h1>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+            </div>
+        </div>
+        <span style="position: relative; left: 400px; top: 50px; font-size: 75px; color: white;" onclick="openNav()">&#9776;</span>
+    </header>
+    <br><br>
+    <hr><br><br>
     <main>
-      <br><br>
-      <a href=""><img src="Logos/bvgreea.png" alt=""></a>
         <br><br>
-       <br><br>
+        <a href=""><img src="Logos/bvgreea.png" alt=""></a>
+        <br><br>
+        <br><br>
         <a href="https://www.animaledu.com/"><img src="Logos/language.jpeg" alt=""></a>
         <br><br>
         <br><br>
@@ -39,6 +70,8 @@
         <br><br>
         <a href="https://teflinstitute.com/"><img src="Logos/TEFL-Logo_Institute.jpeg" alt=""></a>
     </main>
+    <br><br>
+    <hr><br><br>
     <footer>
         <!-- Social Media -->
         <div class="sign">
@@ -72,4 +105,5 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         </div>
     </footer>
 </body>
+
 </html>
