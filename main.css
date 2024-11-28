@@ -31,6 +31,11 @@ main {
     border: 2px solid silver;
     border-radius: 10px;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Adds space between images */
 }
 
 footer {
@@ -42,8 +47,8 @@ footer {
 img {
     border: 2px solid silver;
     border-radius: 10px;
-    width: 800px;
-    height: 400px;
+    width: 400px;
+    height: 200px;
 }
 
 img:hover {
@@ -76,6 +81,13 @@ img {
     text-align: center;
 }
 
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
 .icons img {
     width: 120px;
     height: 120px;
@@ -90,9 +102,9 @@ img {
 }
 
 .icons a {
-  text-decoration: none;
-  border: none; 
-  outline: none; 
+    text-decoration: none;
+    border: none;
+    outline: none;
 }
 
 p {
@@ -130,3 +142,18 @@ h1 {
     transform: scale(1.1);
 }
 
+.sign {
+    background-image: url(Images/social-media.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: ;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 75px;
+}
