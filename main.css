@@ -185,3 +185,8 @@ h1 {
     font-size: 35px;
     margin: 0;
 }
+
+hr {
+    border: 2px solid silver;
+    border-radius: 10px;
+}
